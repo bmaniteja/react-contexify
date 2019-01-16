@@ -225,6 +225,7 @@ class Menu extends Component<MenuProps, MenuState> {
             ref={this.setRef}
             onMouseEnter={this.onMouseEnter}
             onMouseLeave={this.onMouseLeave}
+            role="menu"
           >
             <div>
               {cloneItem(children, {

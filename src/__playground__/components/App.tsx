@@ -85,7 +85,7 @@ class App extends Component {
     });
   };
 
-  handleClick = (e: MouseEvent) => {
+  public handleClick = (e: MouseEvent) => {
     e.preventDefault();
     if ((e.target as HTMLElement).tagName === 'CANVAS') {
       const rect = this.canvasRef.getBoundingClientRect();

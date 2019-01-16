@@ -10,6 +10,7 @@ exports[`Menu Should remove null Item from menu 1`] = `
         <div>
           <div
             class="react-contexify"
+            role="menu"
             style="left: 0px; top: 1px; opacity: 1;"
           >
             <div>
@@ -19,6 +20,7 @@ exports[`Menu Should remove null Item from menu 1`] = `
               >
                 <div
                   class="react-contexify__item__content"
+                  role="menuitem"
                 >
                   bar
                 </div>
@@ -32,6 +34,7 @@ exports[`Menu Should remove null Item from menu 1`] = `
         className="react-contexify"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
+        role="menu"
         style={
           Object {
             "left": 0,
@@ -55,6 +58,7 @@ exports[`Menu Should remove null Item from menu 1`] = `
             >
               <div
                 className="react-contexify__item__content"
+                role="menuitem"
               >
                 bar
               </div>
