@@ -124,7 +124,7 @@ class Submenu extends Component<SubMenuProps, SubMenuState> {
     };
 
     return (
-      <div className={cssClasses} role="presentation">
+      <div className={cssClasses}>
         <div className={styles.itemContent} onClick={this.handleClick}>
           {label}
           <span className={styles.submenuArrow}>{arrow}</span>

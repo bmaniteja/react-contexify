@@ -89,7 +89,6 @@ class Item extends Component<ItemProps> {
         className={cssClasses}
         style={style}
         onClick={this.handleClick}
-        role="presentation"
       >
         <div className={styles.itemContent} role="menuitem">
           {children}

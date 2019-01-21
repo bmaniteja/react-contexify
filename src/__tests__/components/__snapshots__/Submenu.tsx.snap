@@ -9,7 +9,6 @@ exports[`Submenu Should accept a custom arrow ➡️ 1`] = `
 >
   <div
     className="react-contexify__item"
-    role="presentation"
   >
     <div
       className="react-contexify__item__content"
@@ -55,7 +54,6 @@ exports[`Submenu Should not go offscreen 1`] = `
 >
   <div
     className="react-contexify__item"
-    role="presentation"
   >
     <div
       className="react-contexify__item__content"
@@ -101,7 +99,6 @@ exports[`Submenu Should render without crash 💥 1`] = `
 >
   <div
     className="react-contexify__item"
-    role="presentation"
   >
     <div
       className="react-contexify__item__content"
